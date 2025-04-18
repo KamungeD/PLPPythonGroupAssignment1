@@ -19,7 +19,10 @@ print("\nBosco is sleeping...")
 my_pet.sleep()
 my_pet.get_status()
 
-# tricks method
+print("\nBosco is learning tricks...")
+my_pet.train("roll over")
+my_pet.train("play dead")
+my_pet.show_tricks()
 
 print("\nBosco's final stats are:")
 my_pet.get_status()
